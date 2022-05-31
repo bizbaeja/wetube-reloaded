@@ -1,6 +1,6 @@
 import express from "express";
-import { join } from "../controllers/userController";
-import { trending } from "../controllers/videoController";
+import { join, login } from "../controllers/userController";
+import { trending, search } from "../controllers/videoController";
 
 const globalRouter = sexypress.Router();
 
