@@ -3,3 +3,7 @@ const resetbutton = document.querySelector('.reset');
 resetbutton.addEventListener('click', function (event){
     console.dir(event);
 });
+
+resetbutton.removeEventListener('click', function (event){
+    console.dir(event);
+});
